@@ -1,0 +1,344 @@
+
+
+@font-face {
+    font-family: Franklin;
+    src: url(../MEDIA/FONT/LibreFranklin-VariableFont_wght.ttf);
+  }
+  
+  :root{
+  --primary-color: #E57D36;
+  --onPrimaryColor: #EAD048;
+  
+  
+  --primaryContainer: #3D89AB;
+  --onPrimaryContainer: #CDD549;
+  
+  
+  --background: #FCEFD1;
+  --onBackground: #EDF0E9;
+  
+  
+  --green: #9dc852;
+  --lightgreen: #E3E8CF;
+  --lightblue: #F4F6FB;
+  --darkblue: #26556A;
+  }
+  
+  
+
+  
+  html {
+  background-color: #F0DA66;
+  
+  }
+
+  h1{
+    margin-left: 20px;
+    font-family: 'Franklin';
+    font-weight: 100;
+    font-size: 20px;
+    color: #874329;
+    position: relative;
+    top: 140px;
+  }
+
+  h2{
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 5px;
+    font-family: 'Franklin';
+   font-weight: 200;
+    font-size: 12px;
+    color: #874329;
+    letter-spacing: .5px;
+  }
+
+
+  h3{
+    position: absolute;
+    left: 90px;
+    top: 602px;
+    font-family: 'Franklin';
+   font-weight: 200;
+    font-size: 12px;
+    color: #874329;
+  }
+
+  h4{
+    position: absolute;
+    left: 200px;
+    top: 598px;
+    font-family: 'Franklin';
+    font-size: 12px;
+    color: #874329;
+  }
+
+
+  .appname{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    width: 70%; 
+      
+    }
+
+    .whitebox{
+        position: absolute;
+        top: 230px;
+        left: 30px;
+        width: 300px;
+        height: 300px;
+        background-color: var(--lightblue);
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px #00000040;
+        }
+
+    .woof{
+        position: relative;
+        left: 150px;
+        top: -50px;
+        width: 60%;
+
+    }
+
+    .woofreflect{
+      display: none;
+      position: relative;
+      left: 150px;
+      top: -50px;
+      width: 15%;
+
+  }
+
+
+    .corgi{
+        position: relative;
+        left: 5px;
+        top: 420px;
+        width: 55%;
+
+    }
+
+    .pawprint1{
+        position: relative;
+        top: 380px;
+        left: 240px;
+        width: 10%;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+    
+      .pawprint2{
+        position: relative;
+        top: 380px;
+        left: 260px;
+        margin-top: -130px;
+        width: 15%;
+        transform: rotate(-8deg);
+      }
+
+      .house{
+        display: none;
+      }
+
+
+.clickme {
+    position: absolute;
+    font-family: 'Franklin';
+    top: 550px;
+    left: 80px;
+    background-color: var(--onPrimaryContainer);
+    color: #AF5933;
+    font-size: 20px;
+    border: #CDD549;
+    padding: 15px 60px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+    
+    }
+    
+    
+    .clickme:hover{
+    background-color: #E57D36;
+    cursor: pointer;  
+    }
+
+
+
+
+
+    /* * * * * * * * D E S K T O P V E R S I O N * * * * * * * * * * * * * */
+
+@media screen and (width >= 1366px ) {
+
+  html {
+    background-color: #F0DA66;
+    
+    }
+
+    :root{
+      --primary-color: #E57D36;
+      --onPrimaryColor: #EAD048;
+      
+      
+      --primaryContainer: #3D89AB;
+      --onPrimaryContainer: #CDD549;
+      
+      
+      --background: #FCEFD1;
+      --onBackground: #EDF0E9;
+      
+      
+      --green: #9dc852;
+      --lightgreen: #E3E8CF;
+      --lightblue: #F4F6FB;
+      --darkblue: #26556A;
+      }
+      
+      
+    
+      
+      html {
+      background-color: #F0DA66;
+      
+      }
+    
+      h1{
+        position: relative;
+        left: 590px;
+        top: 60px;
+        font-family: 'Franklin';
+        font-weight: 100;
+        font-size: 30px;
+        color: #874329;
+        letter-spacing: 1px;
+      
+      }
+    
+      h2{
+        position: absolute;
+        padding-left: 22px;
+        padding-right: 22px;
+        padding-top: 5px;
+        font-family: 'Franklin';
+       font-weight: 200;
+        font-size: 26px;
+        color: #874329;
+        letter-spacing: .5px;
+      }
+    
+    
+      h3{
+        position: absolute;
+        left: 830px;
+        top: 800px;
+        font-family: 'Franklin';
+       font-weight: 200;
+        font-size: 20px;
+        color: #874329;
+        letter-spacing: 1px;
+      }
+    
+      h4{
+        position: absolute;
+        left: 1030px;
+        top: 794px;
+        font-family: 'Franklin';
+        font-size: 20px;
+        color: #874329;
+        letter-spacing: 1px;
+        
+      }
+    
+    
+      .appname{
+        position: absolute;
+        top: -52px;
+        left: 620px;
+        width: 35%; 
+          
+        }
+    
+        .whitebox{
+            position: absolute;
+            top: 200px;
+            left: 620px;
+            width: 760px;
+            height: 500px;
+            background-color: var(--lightblue);
+            border-radius: 10px;
+            box-shadow: 0px 4px 4px #00000040;
+            }
+
+           .woof{
+              display: none;
+            }
+    
+        .woofreflect{
+          display: inline;
+            position: relative;
+            left: 140px;
+            top: 570px;
+            width: 25%;
+        }
+    
+    
+        .corgi{
+            position: relative;
+            left: 80px;
+            top: 760px;
+            width: 25%;
+    
+        }
+    
+        .pawprint1{
+            position: relative;
+            top: 650px;
+            left: 1160px;
+            width: 5%;
+           
+          }
+        
+          .pawprint2{
+            position: relative;
+            top: 670px;
+            left: 1200px;
+            margin-top: -130px;
+            width: 8%;
+          
+          }
+
+          .house{
+            display: block;
+            position: relative;
+            width: 40%;
+            top: 255px;
+            left: 1420px;
+            transform: rotate(5deg)
+          }
+    
+    
+    .clickme {
+        position: absolute;
+        font-family: 'Franklin';
+        top: 740px;
+        left: 610px;
+        background-color: var(--onPrimaryContainer);
+        color: #AF5933;
+        font-size: 20px;
+        border: #CDD549;
+        padding: 14px 342px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px #00000040;
+        
+        }
+        
+        
+        .clickme:hover{
+        background-color: #E57D36;
+        cursor: pointer;  
+        }
+    
+
+  
+}
