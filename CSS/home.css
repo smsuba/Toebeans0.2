@@ -231,7 +231,7 @@
   
   
   .hList {
-  //overflow: hidden;
+  overflow: hidden;
   }
   
   
@@ -796,7 +796,7 @@
   }
 
   .hList {
-  //overflow: hidden;
+  overflow: hidden;
   }
 
   .hList > * {
@@ -1210,4 +1210,4 @@
   
   
   
-  
+}
